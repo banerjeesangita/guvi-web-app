@@ -1,0 +1,65 @@
+/* webroot/css/app.css */
+
+:root {
+    --font-body: 'Inter', sans-serif;
+    --font-heading: 'Poppins', sans-serif;
+    --color-primary: #16a34a;
+    --color-primary-dark: #15803d;
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: #f5f6fa;
+}
+
+.auth-title,
+.navbar-brand {
+    font-family: var(--font-heading);
+    font-weight: 600;
+}
+
+.auth-page {
+    padding: 1.5rem;
+}
+
+.auth-card {
+    width: 100%;
+    max-width: 420px;
+    border: none;
+    border-radius: 0.75rem;
+}
+
+.auth-icon {
+    color: var(--color-primary);
+}
+
+.auth-footnote {
+    font-size: 0.9rem;
+    color: #6b7280;
+}
+
+.auth-footnote a {
+    color: var(--color-primary);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.auth-footnote a:hover {
+    color: var(--color-primary-dark);
+    text-decoration: underline;
+}
+
+.btn-primary {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: var(--color-primary-dark);
+    border-color: var(--color-primary-dark);
+}
+
+#dashboard-username {
+    color: var(--color-primary);
+}
